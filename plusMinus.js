@@ -18,6 +18,7 @@ function plusMinus(arr) {
 			}
 		}
     
+    console.log(posAns, negAns, zeroAns)
     
     
 }
