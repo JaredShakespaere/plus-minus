@@ -3,6 +3,10 @@ function plusMinus(arr) {
 	let negInt = 0;
     let zero = 0;
 	let total = arr.length;
+
+    let posAns = (posInt/total).toFixed(6);
+    let negAns = (negInt/total).toFixed(6);
+    let zeroAns = (zero/total).toFixed(6);
     
     for (let i = 0; i < arr.length; i++) {
 			if (arr[i] < 0) {
@@ -13,4 +17,7 @@ function plusMinus(arr) {
 				zero++;
 			}
 		}
+    
+    
+    
 }
